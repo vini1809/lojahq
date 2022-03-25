@@ -1,0 +1,26 @@
+.body {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabecalho {
+    background-color: aqua;
+    width: auto;
+    height: 200px;
+}
+.titulo-principal {
+    text-align: center;
+}
+
+img.fundo {
+    margin-left: calc(100%/6);
+    margin-right: 0;
+    width: auto;
+}
+
+.rodape {
+    background-color: aqua;
+    width: auto;
+    height: 100px;
+}
