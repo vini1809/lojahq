@@ -7,20 +7,43 @@
 .cabecalho {
     background-color: aqua;
     width: auto;
-    height: 200px;
+    height: 150px;
+}
+.cabecalho img {
+    position: relative;
+    top: 10px;
+    left: 630px;
+    width: 250px;
+    
 }
 .titulo-principal {
     text-align: center;
 }
-
-img.fundo {
-    margin-left: calc(100%/6);
-    margin-right: 0;
+.fundo {
+    position:relative;
+    top: 0;
+    left: 132px;
     width: auto;
+    float: center;
+}   
+.marvel {
+    position: absolute;
+    top: 500px;
+    left: 80px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+.DC {
+    position: absolute;
+    top: 500px;
+    right: 80px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
 .rodape {
     background-color: aqua;
     width: auto;
     height: 100px;
+    text-align: center;
 }
