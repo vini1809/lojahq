@@ -5,27 +5,32 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .cabecalho {
-    background-color: aqua;
-    width: auto;
-    height: 150px;
+    position: flex;
+    float: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: black;
 }
 .cabecalho img {
-    position: relative;
-    top: 10px;
-    left: 630px;
-    width: 250px;
-    
+    width: 1520px;
+    height: 180px;
+    margin: 0 0 0 0;
 }
-.titulo-principal {
-    text-align: center;
-}
+
 .fundo {
-    position:relative;
-    top: 0;
-    left: 132px;
-    width: auto;
+    position: flex;
     float: center;
-}   
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: black;
+}  
+#img-fundo {
+    
+    width: 1520px;
+    height: auto;
+    margin: 1px 0 0 0;
+} 
+
 .marvel {
     position: absolute;
     top: 500px;
@@ -42,7 +47,7 @@
 }
  
 .rodape {
-    background-color: aqua;
+    background-color: black;
     width: auto;
     height: 100px;
     text-align: center;
