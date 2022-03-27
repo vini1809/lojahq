@@ -10,6 +10,7 @@
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     background-color: black;
+    background-size: cover;
 }
 .cabecalho img {
     width: 1520px;
@@ -29,6 +30,7 @@
     width: 1520px;
     height: auto;
     margin: 1px 0 0 0;
+    background-size: cover;
 } 
 
 .marvel {
