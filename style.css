@@ -33,10 +33,13 @@
 
 .marvel {
     position: absolute;
-    top: 500px;
+    top: 250px;
     left: 80px;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.marvel a {
+    width: 85px;
 }
 .DC {
     position: absolute;
