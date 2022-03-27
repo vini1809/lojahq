@@ -41,9 +41,64 @@
 .marvel a {
     width: 85px;
 }
+.marvel li:nth-child(1):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+.marvel li:nth-child(2):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+.marvel li:nth-child(3):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+.marvel li:nth-child(4):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+.marvel li:nth-child(5):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+.marvel li:nth-child(6):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+.marvel li:nth-child(7):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+.marvel li:nth-child(8):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}.marvel li:nth-child(9):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+
+
 .DC {
     position: absolute;
-    top: 500px;
+    top: 250px;
     right: 80px;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
