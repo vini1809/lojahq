@@ -34,6 +34,7 @@
     position: absolute;
     top: 200px;
     left: 350px;
+    background-size: cover;
 }
 .marvel li:nth-child(1):hover {
     -webkit-transform: scale(1.3);
