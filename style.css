@@ -41,6 +41,11 @@
     height: 140vh;
     background-size: cover;
 }
+#img-pix {
+    position: absolute;
+    top: 800px;
+    left: 630px;
+}
 #text-box1{
     display: none;
     padding: 4px;
@@ -134,6 +139,12 @@
     background-size: cover;
 
 }
+.DC li:nth-child(1):hover ~ #text-box1{
+    display: inline;
+    position: absolute;
+    top: 0px;
+    right: 90px;
+}
 .DC li:nth-child(1){
     position: absolute;
     top: 0;
@@ -141,58 +152,66 @@
     background-size: cover;
 
 }
-.DC li:nth-child(2){
+.DC li:nth-child(3){
     position: absolute;
     top: 88px;
     right: 3px;
     background-size: cover;
 
 }
-.DC li:nth-child(3){
+
+.DC li:nth-child(4){
     position: absolute;
     top: 176px;
     right: 3px;
     background-size: cover;
 
 }
-.DC li:nth-child(4){
+.DC li:nth-child(5){
     position: absolute;
     top: 264px;
     right: 3px;
     background-size: cover;
 
 }
-.DC li:nth-child(5){
+.DC li:nth-child(6){
     position: absolute;
     top: 352px;
     right: 3px;
     background-size: cover;
 
 }
-.DC li:nth-child(6){
+.DC li:nth-child(7){
     position: absolute;
     top: 440px;
     right: 3px;
     background-size: cover;
 
 }
-.DC li:nth-child(7){
+.DC li:nth-child(8){
     position: absolute;
     top: 528px;
     right: 3px;
     background-size: cover;
 
 }
-.DC li:nth-child(8){
+.DC li:nth-child(9){
     position: absolute;
     top: 616px;
     right: 3px;
     background-size: cover;
 
 }
-.DC li:nth-child(9){
+.DC li:nth-child(10){
     position: absolute;
     top: 704px;
+    right: 3px;
+    background-size: cover;
+
+}
+.DC li:nth-child(11){
+    position: absolute;
+    top: 792px;
     right: 3px;
     background-size: cover;
 
@@ -242,6 +261,11 @@
     -ms-transform: scale(1.3);
     transform: scale(1.3);
 }
+.DC li:nth-child(10):hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
  
 .rodape {
     background-color: black;
@@ -274,10 +298,10 @@
     }
     #logo {
         position:absolute;
-        top: 80px;
-        left: 100px;
-        width: 180px;
-        height: 140px;
+        top: 85px;
+        left: 116px;
+        width: 150px;
+        height: 114px;
         background-size: cover;
     
     }
@@ -291,8 +315,15 @@
     }
     #img-fundo {
         width: 100vw;
-        height: 140vh;
+        height: 80vh;
         background-size: cover;
+    }
+    #img-pix {
+        position: absolute;
+        top: 550px;
+        left: 140px;
+        width: 100px;
+        height: 80px;
     }
     #text-box1{
         display: none;
@@ -310,9 +341,17 @@
     .marvel {
         position: absolute;
         top: 140px;
-        left: 0;
+        left: 50px;
         background-size: cover;
-        margin: 15px,15px,15px,15px;
+    }
+    .marvel img{
+        max-width: 100%;
+        max-height: 100%;
+
+    }
+    .marvel li {
+        width: 50px;
+        height: 50px;
     }
     
     .marvel li:nth-child(1):hover ~ #text-box1{
@@ -385,14 +424,153 @@
     .DC {
         position: absolute;
         top: 140px;
+        right: 50px;
+        background-size: cover;
+    }
+    .DC img{
+        max-width: 100%;
+        max-height: 100%;
+
+    }
+    .DC li {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .DC li:nth-child(1):hover ~ #text-box1{
+        display: inline;
+        position: absolute;
+        top: 0px;
+        right: 90px;
+    }
+    .DC li:nth-child(1){
+        position: absolute;
+        top: 0;
         right: 0px;
         background-size: cover;
-        margin: 15px,15px,15px,15px;
+    
+    }
+    .DC li:nth-child(3){
+        position: absolute;
+        top: 41px;
+        right: 0px;
+        background-size: cover;
+    
+    }
+    
+    .DC li:nth-child(4){
+        position: absolute;
+        top: 95px;
+        right: 0px;
+        background-size: cover;
+    
+    }
+    .DC li:nth-child(5){
+        position: absolute;
+        top: 145px;
+        right: 0px;
+        background-size: cover;
+    
+    }
+    .DC li:nth-child(6){
+        position: absolute;
+        top: 195px;
+        right: 0px;
+        background-size: cover;
+    
+    }
+    .DC li:nth-child(7){
+        position: absolute;
+        top: 245px;
+        right: 0px;
+        background-size: cover;
+    
+    }
+    .DC li:nth-child(8){
+        position: absolute;
+        top: 292px;
+        right: 0px;
+        background-size: cover;
+    
+    }
+    .DC li:nth-child(9){
+        position: absolute;
+        top: 345px;
+        right: 0px;
+        background-size: cover;
+    
+    }
+    .DC li:nth-child(10){
+        position: absolute;
+        top: 395px;
+        right: 0px;
+        background-size: cover;
+    
+    }
+    .DC li:nth-child(11){
+        position: absolute;
+        top: 442px;
+        right: 0px;
+        background-size: cover;
+    
     }
     .DC li:nth-child(1):hover{
         -webkit-transform: scale(1.3);
         -ms-transform: scale(1.3);
         transform: scale(1.3);
+    }
+    .DC li:nth-child(2):hover {
+        -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    
+    }
+    .DC li:nth-child(3):hover {
+        -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    
+    }
+    .DC li:nth-child(4):hover {
+        -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    
+    }
+    .DC li:nth-child(5):hover {
+        -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    
+    }
+    .DC li:nth-child(6):hover {
+        -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    
+    }
+    .DC li:nth-child(7):hover {
+        -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    
+    }
+    .DC li:nth-child(8):hover {
+        -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    
+    }.DC li:nth-child(9):hover {
+        -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    
+    }
+    .DC li:nth-child(10):hover {
+        -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    
     }
     .rodape {
         background-color: black;
@@ -402,11 +580,13 @@
         vertical-align:baseline;
     }
     .rodape a {
-        margin: 20px 20px 20px 20px;
-        padding: 20px 20px 20px 20px;
+        margin: 3px;
+        padding: 3px;
     }
     .rodape p {
         color: white;
+        text-align: left;
+        vertical-align: middle;
     }
 
 }
