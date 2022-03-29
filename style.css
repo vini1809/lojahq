@@ -1,44 +1,86 @@
 
 .body {
-    position: absolute;
     margin: 0;
     padding: 0;
     font-family: 'Bangers', cursiva;
 }
 .cabecalho {
-    position: flex;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    background-color: black;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: auto;
+height: 115px;
+left: 0px;
+top: 0px;
+
+
+background: #9e9999;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+
+
 }
-.cabecalho img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 150px;
+#dcmarvel {
+    height: 115px;
+    width: 50vw;
+    left: 0px;
+    top: 0px;
     background-size: cover;
 }
 #logo {
     position:absolute;
-    top: 80px;
-    left: 548px;
-    width: 450px;
-    height: 350px;
+    top: 0px;
+    left: 20px;
+    width: 170px;
+    height: 120px;
     background-size: cover;
 
 }
 
 .fundo {
-    position: flex;
-    float: center;
-    margin: 150px 0 0 0;
-    padding: 0 0 0 0;
-    background-color: white;
+    /* Hero */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0;
+
+position: static;
+width: auto;
+height: auto;
+left: 0px;
+top: 0px;
+
+/* imagemhero */
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
 }
 #img-fundo {
+    position:relative;
+    top: 0px;
+    left: 0px;
     width: 100vw;
-    height: 140vh;
+    height: 150vh;
     background-size: cover;
 }
 #img-pix {
