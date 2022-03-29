@@ -1,72 +1,132 @@
-.marvel {
-    position: absolute;
-    top: 200px;
-    left: 380px;
+ #vingadores {
+    position:absolute;
+    top: 160px;
+    left: 127px;
     background-size: cover;
-    margin: 15px,15px,15px,15px;
+}
+#text-box1{
+    display: none;
+    padding: 4px;
+    box-shadow: 3px 3px 3px 1px #b700ff;
+    background-color: rgba(176, 182, 218, 0.85);
+    border-radius: 0.25em;
+    width: 400px;
+    height: 580px;
+    margin: auto 5px auto 5px;
+    font-family: 'Bangers', cursive;
+    font-size: 34px;
+    text-align: center;
+}
+#text2-box1{
+    display: none;
+    padding: 4px;
+    box-shadow: 3px 3px 3px 1px #b700ff;
+    background-color: rgba(176, 182, 218, 0.85);
+    border-radius: 0.25em;
+    width: 400px;
+    height: 500px;
+    margin: auto 5px auto 5px;
+    font-family: 'Bangers', cursive;
+    font-size: 34px;
+    text-align: center;
+}
+#text3-box1{
+    display: none;
+    padding: 4px;
+    box-shadow: 3px 3px 3px 1px #b700ff;
+    background-color: rgba(176, 182, 218, 0.85);
+    border-radius: 0.25em;
+    width: 400px;
+    height: 500px;
+    margin: auto 5px auto 5px;
+    font-family: 'Bangers', cursive;
+    font-size: 34px;
+    text-align: center;
+}
+#text4-box1{
+    display: none;
+    padding: 4px;
+    box-shadow: 3px 3px 3px 1px #00ff0d;
+    background-color: rgba(109, 233, 97, 0.85);
+    border-radius: 0.25em;
+    width: 400px;
+    height: 500px;
+    margin: auto 5px auto 5px;
+    font-family: 'Bangers', cursive;
+    font-size: 34px;
+    text-align: center;
+}
+span{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    letter-spacing: -1px;
 }
 
-.marvel li:nth-child(1):hover ~ #text-box1{
+#vingadores>li:hover ~ #text-box1{
     display: inline;
     position: absolute;
     top: 0px;
-    left: 90px;
+    left: 100px;
 }
-.marvel li:nth-child(1):hover{
+
+.elementos #vingadores:hover {
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
 }
-.marvel li:nth-child(2):hover {
-    -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
 
+#capitaoamerica {
+    position: absolute;
+    top: 160px;
+    left: 315px;
+    background-size: cover;
 }
-.marvel li:nth-child(3):hover {
-    -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
 
+#capitaoamerica>li:hover ~ #text2-box1{
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 100px;
 }
-.marvel li:nth-child(4):hover {
+.elementos #capitaoamerica:hover {
     -webkit-transform: scale(1.3);
         -ms-transform: scale(1.3);
         transform: scale(1.3);
-
 }
-.marvel li:nth-child(5):hover {
-    -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
-
+#homem-de-ferro {
+    position: absolute;
+    top: 160px;
+    left: 485px;
+    background-size: cover;
 }
-.marvel li:nth-child(6):hover {
-    -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
 
+#homem-de-ferro>li:hover ~ #text3-box1{
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 100px;
 }
-.marvel li:nth-child(7):hover {
+.elementos #homem-de-ferro:hover {
     -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
-
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
 }
-.marvel li:nth-child(8):hover {
-    -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
-
-}.marvel li:nth-child(9):hover {
-    -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
-
+#hulk {
+    position: absolute;
+    top: 160px;
+    left: 685px;
+    background-size: cover;
 }
-.marvel li:nth-child(10):hover {
-    -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
 
+#hulk>li:hover ~ #text4-box1{
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+.elementos #hulk:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
 }
