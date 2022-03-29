@@ -1,0 +1,72 @@
+.marvel {
+    position: absolute;
+    top: 200px;
+    left: 380px;
+    background-size: cover;
+    margin: 15px,15px,15px,15px;
+}
+
+.marvel li:nth-child(1):hover ~ #text-box1{
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 90px;
+}
+.marvel li:nth-child(1):hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.marvel li:nth-child(2):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+.marvel li:nth-child(3):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+.marvel li:nth-child(4):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+.marvel li:nth-child(5):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+.marvel li:nth-child(6):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+.marvel li:nth-child(7):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+.marvel li:nth-child(8):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}.marvel li:nth-child(9):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+.marvel li:nth-child(10):hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
