@@ -4,64 +4,6 @@
     left: 127px;
     background-size: cover;
 }
-#text-box1{
-    display: none;
-    padding: 4px;
-    box-shadow: 3px 3px 3px 1px #b700ff;
-    background-color: rgba(176, 182, 218, 0.85);
-    border-radius: 0.25em;
-    width: 400px;
-    height: 580px;
-    margin: auto 5px auto 5px;
-    font-family: 'Bangers', cursive;
-    font-size: 34px;
-    text-align: center;
-}
-#text2-box1{
-    display: none;
-    padding: 4px;
-    box-shadow: 3px 3px 3px 1px #b700ff;
-    background-color: rgba(176, 182, 218, 0.85);
-    border-radius: 0.25em;
-    width: 400px;
-    height: 500px;
-    margin: auto 5px auto 5px;
-    font-family: 'Bangers', cursive;
-    font-size: 34px;
-    text-align: center;
-}
-#text3-box1{
-    display: none;
-    padding: 4px;
-    box-shadow: 3px 3px 3px 1px #b700ff;
-    background-color: rgba(176, 182, 218, 0.85);
-    border-radius: 0.25em;
-    width: 400px;
-    height: 500px;
-    margin: auto 5px auto 5px;
-    font-family: 'Bangers', cursive;
-    font-size: 34px;
-    text-align: center;
-}
-#text4-box1{
-    display: none;
-    padding: 4px;
-    box-shadow: 3px 3px 3px 1px #00ff0d;
-    background-color: rgba(109, 233, 97, 0.85);
-    border-radius: 0.25em;
-    width: 400px;
-    height: 500px;
-    margin: auto 5px auto 5px;
-    font-family: 'Bangers', cursive;
-    font-size: 34px;
-    text-align: center;
-}
-span{
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-    letter-spacing: -1px;
-}
 
 #vingadores>li:hover ~ #text-box1{
     display: inline;
@@ -126,6 +68,96 @@ span{
     left: 100px;
 }
 .elementos #hulk:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+#thor {
+    position: absolute;
+    top: 510px;
+    left: 127px;
+    background-size: cover;
+}
+
+#thor>li:hover ~ #text5-box1{
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+.elementos #thor:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+#x-man {
+    position: absolute;
+    top: 510px;
+    left: 315px;
+    background-size: cover;
+}
+
+#x-man>li:hover ~ #text6-box1{
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+.elementos #x-man:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+#homem-aranha {
+    position: absolute;
+    top: 510px;
+    left: 485px;
+    background-size: cover;
+}
+
+#homem-aranha>li:hover ~ #text7-box1{
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+.elementos #homem-aranha:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+#dr-estranho {
+    position: absolute;
+    top: 510px;
+    left: 685px;
+    background-size: cover;
+}
+
+#dr-estranho>li:hover ~ #text8-box1{
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+.elementos #dr-estranho:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+#viuva-negra {
+    position: absolute;
+    top: 860px;
+    left: 127px;
+    background-size: cover;
+}
+
+#viuva-negra>li:hover ~ #text9-box1{
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+.elementos #viuva-negra:hover {
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
