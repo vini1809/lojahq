@@ -1,14 +1,23 @@
-#text-box1{
+em {
+    font-size: 30px;
+}
+span{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    letter-spacing: -1px;
+}
+
+#text1-box1{
     display: none;
     padding: 4px;
     box-shadow: 3px 3px 3px 1px #b700ff;
     background-color: rgba(176, 182, 218, 0.85);
     border-radius: 0.25em;
     width: 400px;
-    height: 580px;
+    height: 205px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
-    font-size: 34px;
     text-align: center;
 }
 #text2-box1{
@@ -21,7 +30,6 @@
     height: 500px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
-    font-size: 34px;
     text-align: center;
 }
 #text3-box1{
@@ -34,7 +42,6 @@
     height: 500px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
-    font-size: 34px;
     text-align: center;
 }
 #text4-box1{
@@ -47,7 +54,6 @@
     height: 500px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
-    font-size: 34px;
     text-align: center;
 }
 #text5-box1{
@@ -60,7 +66,6 @@
     height: 500px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
-    font-size: 34px;
     text-align: center;
 }
 #text6-box1{
@@ -73,7 +78,6 @@
     height: 500px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
-    font-size: 34px;
     text-align: center;
 }
 #text7-box1{
@@ -86,7 +90,6 @@
     height: 500px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
-    font-size: 34px;
     text-align: center;
 }
 #text8-box1{
@@ -99,7 +102,6 @@
     height: 500px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
-    font-size: 34px;
     text-align: center;
 }
 #text9-box1{
@@ -108,14 +110,55 @@
     box-shadow: 3px 3px 3px 1px #b700ff;
     background-color: rgba(176, 182, 218, 0.85);
     border-radius: 0.25em;
-    width: 400px;
-    height: 500px;
+    width: 350px;
+    height: 250px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
-    font-size: 34px;
     text-align: center;
 }
 #text10-box1{
+    display: none;
+    padding: 4px;
+    box-shadow: 3px 3px 3px 1px #b700ff;
+    background-color: rgba(176, 182, 218, 0.85);
+    border-radius: 0.25em;
+    width: 350px;
+    height: 240px;
+    margin: auto 5px auto 5px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+
+
+}
+#text11-box1{
+    display: none;
+    padding: 4px;
+    box-shadow: 3px 3px 3px 1px #b700ff;
+    background-color: rgba(176, 182, 218, 0.85);
+    border-radius: 0.25em;
+    width: 400px;
+    height: 300px;
+    margin: auto 5px auto 5px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+
+
+}
+#text12-box1{
+    display: none;
+    padding: 4px;
+    box-shadow: 3px 3px 3px 1px #b700ff;
+    background-color: rgba(176, 182, 218, 0.85);
+    border-radius: 0.25em;
+    width: 600px;
+    height: 350px;
+    margin: auto 5px auto 5px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+
+
+}
+#text13-box1{
     display: none;
     padding: 4px;
     box-shadow: 3px 3px 3px 1px #b700ff;
@@ -125,12 +168,7 @@
     height: 500px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
-    font-size: 34px;
     text-align: center;
-}
-span{
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-    letter-spacing: -1px;
+
+
 }
