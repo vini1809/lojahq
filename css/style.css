@@ -23,13 +23,36 @@ margin: 0px 0px;
 nav {
     position:static;
     width: 100em;
-    height: 300px;
+    height: 260px;
 }
 .produtos {
     position: relative;
     top: 0px;
     left: 0;
 }
+#login {
+    position:absolute;
+    top:30px;
+    right: 30px;
+    font-size: 25px;
+    background-color: rgb(251, 251, 251);
+    color: white;
+    border-radius: 3px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin: 0;
+}
+a:link, a:visited, a:active {
+	text-decoration:none;
+    color: brown;
+    vertical-align: middle;
+    line-height: 1.6em;
+	}
+a:hover {
+	text-decoration: underline;
+	color:#000;
+	}
 #dcmarvel {
     height: 115px;
     width: 50vw;
@@ -73,18 +96,19 @@ margin: 0px 0px;
 }
 #img-pix {
     position: relative;
-    top: 100px;
+    top: 30px;
     left: 670px;
+    padding: 0;
 }
 .contato {
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 64px;
+padding: 0px;
 position: static;
-width: 1440px;
-height: 368px;
+width: auto;
+height: 290px;
 left: 0px;
 top: 0px;
 background:  black;
