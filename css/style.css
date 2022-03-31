@@ -2,34 +2,33 @@
 .body {
     margin: 0;
     padding: 0;
-    font-family: 'Bangers', cursiva;
-    background:#000;
 }
 .cabecalho {
-
 display: flex;
 flex-direction: column;
 align-items: center;
 padding: 0px;
-
 position: static;
 width: auto;
 height: 115px;
 left: 0px;
 top: 0px;
-
-
 background: #9e9999;
-
-/* Inside auto layout */
-
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 margin: 0px 0px;
-
-
+}
+nav {
+    position:static;
+    width: 100em;
+    height: 300px;
+}
+.produtos {
+    position: relative;
+    top: 0px;
+    left: 0;
 }
 #dcmarvel {
     height: 115px;
@@ -47,29 +46,17 @@ margin: 0px 0px;
     background-size: cover;
 
 }
-
 .fundo {
-    /* Hero */
-
-
-/* Auto layout */
-
 display: flex;
 flex-direction: column;
 justify-content: flex-end;
 align-items: center;
 padding: 0;
-
 position: static;
 width: auto;
 height: auto;
 left: 0px;
 top: 0px;
-
-/* imagemhero */
-
-/* Inside auto layout */
-
 flex: none;
 order: 1;
 align-self: stretch;
@@ -85,11 +72,28 @@ margin: 0px 0px;
     background-size: cover;
 }
 #img-pix {
-    position: absolute;
-    top: 800px;
-    left: 630px;
+    position: relative;
+    top: 100px;
+    left: 670px;
 }
- 
+.contato {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 64px;
+position: static;
+width: 1440px;
+height: 368px;
+left: 0px;
+top: 0px;
+background:  black;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+}
 .rodape {
     background-color: black;
     width: auto;

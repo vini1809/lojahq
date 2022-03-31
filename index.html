@@ -19,16 +19,13 @@
         <div><img id="dcmarvel" src="./img/background-banner.png" alt="banner"></Div>
         <div><img id="logo" src="./img/logoLoja.png" alt="logodaloja"></div>      
     </header>
-
-    <main>
-        
-        <div class="fundo">
-          
+    <nav>
+        <img id="img-pix" src="./img/pix.png" alt="pix">
+    </nav>
+    <main class="produtos">
+         <div class="fundo">
           <img id="img-fundo" src="./img/background3.jpg" alt="DC&Marvel">
-          <img id="img-pix" src="./img/pix.png" alt="pix">
-         
         </div>
-
         <section class="marvel">
             <ul class="elementos">
                 <div id="viuva-negra">
@@ -258,30 +255,55 @@
                  <div id="aquaman">
                      <li><a title="Aquaman" href="" target="_blank"><img src="./img/DC/Aquaman.png" alt="aquaman" /></a></li> 
                  </div>
-                 <div>
+                 <div id="flash">
                      <li><a title="Flash" href="" target="_blank"><img src="./img/DC/flash.png" alt="flash" /></a></li>
                  </div>
-                 <div>
+                 <div id="lanterna-verde">
                      <li><a title="Lanterna-Verde" href="" target="_blank"><img src="./img/DC/lanterna-verde.png" alt="lanterna-verde" /></a></li> 
                  </div>
-                 <div>
+                 <div id="ravena">
                      <li><a title="Ravena" href="" target="_blank"><img src="./img/DC/ravena.png" alt="ravena" /></a></li> 
                  </div>
-                 <div>
+                 <div id="coringa">
                      <li><a title="Coringa" href="" target="_blank"><img src="./img/DC/coringa.png" alt="coringa" /></a></li> 
                  </div>
           </ul>
          </section>
     </main>
 
-    <footer class="rodape">
-        <a title="LinkedIn" href="https://www.linkedin.com/in/vinicius-oruam-rodrigues-94868720b/" target="_blank"><img src="./img/linkedin.png" alt="LinkedIn" /></a>
-		<a title="Facebook" href="https://www.facebook.com/viniciusoruam" target="_blank"><img src="./img/facebook.png" alt="Facebook" /></a>
-		<a title="GitHub" href="https://github.com/vini1809" target="_blank"><img style="background-color: black; border-radius: 50em;" src="./img/github.png" alt="Github" /></a>
-		<a title="Email" href="mailto:viniciusoruam89@gmail.com"><img src="./img/gmail.png" alt="Gmail" /></a>
-        <br>
-        <br>
-        <p>© Copyright | VINICIUS ORUAM RODRIGUES</p>    
+    <footer">
+        <div class="contato">
+            <div id="after_submit"></div>
+                <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                <div class="row">
+                    <label class="required" for="name">Your name:</label><br />
+                    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                    <span id="name_validation" class="error_message"></span>
+                </div>
+                <div class="row">
+                    <label class="required" for="email">Your email:</label><br />
+                    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                    <span id="email_validation" class="error_message"></span>
+                </div>
+                <div class="row">
+                    <label class="required" for="message">Your message:</label><br />
+                    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                    <span id="message_validation" class="error_message"></span>
+                </div>
+                    
+                    <input id="submit_button" type="submit" value="Send email" />
+                </form>
+
+        </div>
+        <div class="rodape">
+            <a title="LinkedIn" href="https://www.linkedin.com/in/vinicius-oruam-rodrigues-94868720b/" target="_blank"><img src="./img/linkedin.png" alt="LinkedIn" /></a>
+            <a title="Facebook" href="https://www.facebook.com/viniciusoruam" target="_blank"><img src="./img/facebook.png" alt="Facebook" /></a>
+            <a title="GitHub" href="https://github.com/vini1809" target="_blank"><img style="background-color: black; border-radius: 50em;" src="./img/github.png" alt="Github" /></a>
+            <a title="Email" href="mailto:viniciusoruam89@gmail.com"><img src="./img/gmail.png" alt="Gmail" /></a>
+            <br>
+            <br>
+            <p>© Copyright | VINICIUS ORUAM RODRIGUES</p>
+        </div>    
     </footer>
 
 </body>
