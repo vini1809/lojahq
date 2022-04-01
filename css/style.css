@@ -69,6 +69,53 @@ a:hover {
     background-size: cover;
 
 }
+#searchbar{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    margin-left: 15%;
+    padding:15px;
+    border-radius: 10px;
+  }
+
+  input[type=text] {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+     width: 50%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+
+  }
+
+  /* When the input field gets focus,
+       change its width to 100% */
+  input[type=text]:focus {
+    width: 20%;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+  }
+
+ #list{
+   font-size:  1.5em;
+   margin-left: 90px;
+   position: absolute;
+   top: 40px;
+   left: 30px;
+  }
+  #list li{
+      display: inline-block;
+  }
+
+.animals{
+  display: inline-block;    
+ } 
+ .pesquisa #searchbar {
+     position: absolute;
+     top: 10px;
+     left: 0px;
+ }
 .fundo {
 display: flex;
 flex-direction: column;
@@ -100,6 +147,13 @@ margin: 0px 0px;
     left: 670px;
     padding: 0;
 }
+#img-frete{
+position: relative;
+top: 30px;
+left: 170px;
+padding: 0;
+}
+
 #preco{
     font-size: 9;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

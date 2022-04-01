@@ -5,17 +5,17 @@ span{
     font-size: 14px;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
-    letter-spacing: -1px;
+    letter-spacing: -0.5px;
 }
 
 #text1-box1{
     display: none;
     padding: 4px;
     box-shadow: 3px 3px 3px 1px #b700ff;
-    background-color: rgba(176, 182, 218, 0.85);
+    background-color: rgba(176, 182, 218, 0.93);
     border-radius: 0.25em;
     width: 400px;
-    height: 205px;
+    height: 210px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
     text-align: center;

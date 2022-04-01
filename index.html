@@ -16,11 +16,32 @@
 <body>
 
     <header class="cabecalho">
+    <div .class="pesquisa"></div>
+        <input id="searchbar" onkeyup="search_animal()" type="text"
+        name="search" placeholder="Search animals..">
+  
+          <!-- ordered list -->
+    <ol id='list'>
+        <li class="animals">Cat</li>
+        <li class="animals">Dog</li>
+        <li class="animals">Elephant</li>
+        <li class="animals">Fish</li>
+        <li class="animals">Gorilla</li>
+        <li class="animals">Monkey</li>
+        <li class="animals">Turtle</li>
+        <li class="animals">Whale</li>
+        <li class="animals">Aligator</li>
+        <li class="animals">Donkey</li>
+        <li class="animals">Horse</li>
+    </ol>
+  </div>    
+
         <div><img id="dcmarvel" src="./img/background-banner.png" alt="banner"></Div>
         <div><img id="logo" src="./img/logoLoja.png" alt="logodaloja"></div>
         <div id="login"><a href="./login.html">Login</a></div>      
     </header>
     <nav>
+        <img id="img-frete" src="./img/fretegratis.png" alt="fretegratis">
         <img id="img-pix" src="./img/pix.png" alt="pix">
     </nav>
     <main class="produtos">
@@ -391,6 +412,7 @@
             <p>© Copyright | VINICIUS ORUAM RODRIGUES</p>
         </div>    
     </footer>
-
+        <!-- linking javascript -->
+        <script src="./js.js"></script>
 </body>
 </html>
