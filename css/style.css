@@ -100,6 +100,16 @@ margin: 0px 0px;
     left: 670px;
     padding: 0;
 }
+#preco{
+    font-size: 9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 221, 1);
+    text-align: center;
+    margin: 5px;
+    line-height: 1.50em;
+    background-color: black; 
+}
 .contato {
 display: flex;
 flex-direction: row;
