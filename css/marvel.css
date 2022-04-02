@@ -30,8 +30,8 @@
 #capitaoamerica>li:hover ~ #text2-box1{
     display: inline;
     position: absolute;
-    top: 260px;
-    left: -150px;
+    top: 40px;
+    left: 100px;
     z-index: 2;
 }
 .elementos #capitaoamerica:hover {
