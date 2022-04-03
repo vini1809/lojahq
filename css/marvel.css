@@ -104,8 +104,8 @@
 }
 #x-man {
     position: absolute;
-    top: 510px;
-    left: 95px;
+    top: 130px;
+    left: 845px;
     background-size: cover;
     z-index: 1;
     text-align: center;
@@ -125,7 +125,7 @@
 #homem-aranha {
     position: absolute;
     top: 510px;
-    left: 245px;
+    left: 95px;
     background-size: cover;
     z-index: 1;
     text-align: center;
@@ -145,7 +145,7 @@
 #dr-estranho {
     position: absolute;
     top: 510px;
-    left: 395px;
+    left: 245px;
     background-size: cover;
     z-index: 1;
     text-align: center;
@@ -165,7 +165,7 @@
 #viuva-negra {
     position: absolute;
     top: 510px;
-    left: 545px;
+    left: 395px;
     background-size: cover;
     z-index: 1;
     text-align: center;

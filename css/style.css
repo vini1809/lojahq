@@ -1,7 +1,7 @@
 
 .body {
-    margin: 0;
-    padding: 0;
+   width: auto;
+   height: auto;
 }
 .cabecalho {
 display: flex;
@@ -23,7 +23,7 @@ background-size: cover;
 }
 nav {
     position:static;
-    width: 100em;
+    width: auto;
     height: 260px;
     background-size: cover;
 }
@@ -141,8 +141,8 @@ background-size: cover;
     position:relative;
     top: 0px;
     left: 0px;
-    width: 100vw;
-    height: 150vh;
+    width: auto;
+    height: 180vh;
     background-size: cover;
 }
 #img-pix {
@@ -150,12 +150,14 @@ background-size: cover;
     top: 30px;
     left: 670px;
     padding: 0;
+    background-size: cover;
 }
 #img-frete{
 position: relative;
 top: 30px;
 left: 170px;
 padding: 0;
+    background-size: cover;
 }
 
 #preco{
