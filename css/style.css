@@ -1,7 +1,6 @@
 
 .body {
-   width: auto;
-   height: auto;
+
 }
 .cabecalho {
 display: flex;
@@ -31,6 +30,9 @@ nav {
     position: relative;
     top: 0px;
     left: 0;
+    width: auto;
+    height: 1290px;
+    background:linear-gradient( white,#4b4b4b,black);
 }
 #login {
     position:absolute;
@@ -67,8 +69,8 @@ a:hover {
     position:absolute;
     top: 0px;
     left: 20px;
-    width: 170px;
-    height: 120px;
+    width: 210px;
+    height: 140px;
     background-size: cover;
 
 }
@@ -141,7 +143,7 @@ background-size: cover;
     position:relative;
     top: 0px;
     left: 0px;
-    width: auto;
+    width: 80vw;
     height: 180vh;
     background-size: cover;
 }

@@ -93,7 +93,7 @@
 #thor>li:hover ~ #text5-box1{
     display: inline;
     position: absolute;
-    top: 0px;
+    top: 40px;
     left: 100px;
     z-index: 2;    
 }
@@ -133,7 +133,7 @@
 #homem-aranha>li:hover ~ #text7-box1{
     display: inline;
     position: absolute;
-    top: 0px;
+    top: 40px;
     left: 100px;
     z-index: 2;
 }
@@ -153,7 +153,7 @@
 #dr-estranho>li:hover ~ #text8-box1{
     display: inline;
     position: absolute;
-    top: 0px;
+    top: 40px;
     left: 100px;
     z-index: 2;
 }
@@ -173,7 +173,7 @@
 #viuva-negra>li:hover ~ #text9-box1{
     display: inline;
     position: absolute;
-    top: 0px;
+    top: 40px;
     left: 100px;
     z-index: 2;
 }
