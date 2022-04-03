@@ -19,11 +19,13 @@ order: 0;
 align-self: stretch;
 flex-grow: 0;
 margin: 0px 0px;
+background-size: cover;
 }
 nav {
     position:static;
     width: 100em;
     height: 260px;
+    background-size: cover;
 }
 .produtos {
     position: relative;
@@ -42,6 +44,7 @@ nav {
     height: 50px;
     text-align: center;
     margin: 0;
+    background-size: cover;
 }
 a:link, a:visited, a:active {
 	text-decoration:none;
@@ -77,6 +80,7 @@ a:hover {
     width: 490px;
     display: block;
     margin: 0 auto;
+    background-size: cover;
   }
   
   input#search-bar{
@@ -112,7 +116,7 @@ a:hover {
     float: right;
     width: 75px;
     height: 75px;
-    top: -62px;
+    top: -57px;
     right: -45px;
   }
 .fundo {
@@ -131,6 +135,7 @@ order: 1;
 align-self: stretch;
 flex-grow: 0;
 margin: 0px 0px;
+background-size: cover;
 }
 #img-fundo {
     position:relative;
@@ -180,6 +185,7 @@ order: 0;
 align-self: stretch;
 flex-grow: 0;
 margin: 0px 0px;
+background-size: cover;
 }
 .rodape {
     background-color: black;
@@ -187,6 +193,7 @@ margin: 0px 0px;
     height: 100px;
     text-align: center;
     vertical-align:baseline;
+    background-size: cover;
 }
 .rodape a {
     margin: 20px 20px 20px 20px;

@@ -1,15 +1,17 @@
 #liga-da-justica {
     position:absolute;
-    top: 160px;
+    top: 130px;
     right: 95px;
     background-size: cover;
-    z-index: 14;
+    z-index: 0;
+    text-align: center;
 }
 #liga-da-justica>li:hover ~ #text10-box1{
     display: inline;
     position: absolute;
-    top: 290px;
-    right: -75px;
+    top: 40px;
+    right: 100px;
+    z-index: 1;
 
 }
 .elementos-dc #liga-da-justica:hover {
@@ -20,16 +22,18 @@
 }
 #super-homem {
     position: absolute;
-    top: 160px;
+    top: 130px;
     right: 245px;
     background-size: cover;
-    z-index: 13;
+    z-index: 0;
+    text-align: center;
 }
 #super-homem>li:hover ~ #text11-box1{
     display: inline;
     position: absolute;
-    top: 290px;
-    right: -150px;
+    top: 40px;
+    right: 100px;
+    z-index: 1;
 }
 .elementos-dc #super-homem:hover {
     -webkit-transform: scale(1.3);
@@ -38,16 +42,18 @@
 }
 #batman {
     position: absolute;
-    top: 160px;
+    top: 130px;
     right: 395px;
     background-size: cover;
-    z-index: 12;
+    z-index: 0;
+    text-align: center;
 }
 #batman>li:hover ~ #text12-box1{
     display: inline;
     position: absolute;
-    top: 290px;
-    right: -250px;
+    top: 40px;
+    right: 100px;
+    z-index: 1;
 }
 .elementos-dc #batman:hover {
     -webkit-transform: scale(1.3);
@@ -57,16 +63,18 @@
 
 #mulher-maravilha {
     position: absolute;
-    top: 160px;
+    top: 130px;
     right: 545px;
     background-size: cover;
-    z-index: 12;
+    z-index: 0;
+    text-align: center;
 }
 #mulher-maravilha>li:hover ~ #text13-box1{
     display: inline;
     position: absolute;
-    top: 290px;
-    right: -250px;
+    top: 165px;
+    left: 0px;
+    z-index: 1;
 }
 .elementos-dc #mulher-maravilha:hover {
     -webkit-transform: scale(1.3);
@@ -79,13 +87,15 @@
     top: 510px;
     right: 95px;
     background-size: cover;
-    z-index: 12;
+    z-index: 1;
+    text-align: center;
 }
 #aquaman>li:hover ~ #text14-box1{
     display: inline;
     position: absolute;
     top: 290px;
-    right: -250px;
+    right: 300px;
+    z-index: 2;
 }
 .elementos-dc #aquaman:hover {
     -webkit-transform: scale(1.3);
@@ -97,13 +107,15 @@
     top: 510px;
     right: 245px;
     background-size: cover;
-    z-index: 12;
+    z-index: 1;
+    text-align: center;
 }
 #flash>li:hover ~ #text15-box1{
     display: inline;
     position: absolute;
     top: 290px;
-    right: -250px;
+    right: 300px;
+    z-index: 2;
 }
 .elementos-dc #flash:hover {
     -webkit-transform: scale(1.3);
@@ -115,13 +127,15 @@
     top: 510px;
     right: 395px;
     background-size: cover;
-    z-index: 12;
+    z-index: 1;
+    text-align: center;
 }
 #lanterna-verde>li:hover ~ #text16-box1{
     display: inline;
     position: absolute;
     top: 290px;
     right: -250px;
+    z-index: 2;
 }
 .elementos-dc #lanterna-verde:hover {
     -webkit-transform: scale(1.3);
@@ -133,13 +147,15 @@
     top: 510px;
     right: 545px;
     background-size: cover;
-    z-index: 12;
+    z-index: 1;
+    text-align: center;
 }
 #ravena>li:hover ~ #text17-box1{
     display: inline;
     position: absolute;
     top: 290px;
     right: -250px;
+    z-index: 2;
 }
 .elementos-dc #ravena:hover {
     -webkit-transform: scale(1.3);
@@ -151,13 +167,15 @@
     top: 510px;
     right: 695px;
     background-size: cover;
-    z-index: 12;
+    z-index: 1;
+    text-align: center;
 }
 #coringa>li:hover ~ #text18-box1{
     display: inline;
     position: absolute;
     top: 290px;
     right: -250px;
+    z-index: 2;
 }
 .elementos-dc #coringa:hover {
     -webkit-transform: scale(1.3);
