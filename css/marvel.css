@@ -3,7 +3,6 @@
     background-size: cover;
     z-index: 1;
     text-align: center;
-
  }
  .animacao:hover {
     -webkit-transform: scale(1.3);
@@ -16,107 +15,56 @@
     top: 130px;
     left: 95px;
 }
-.vingadores>li:hover ~ .box,
-.vingadores>li:hover ~ .box-vingadores {
-    display: inline;
-    position: absolute;
-    top: 40px;
-    left: 100px;
-    z-index: 2;
-}
 .capitaoamerica {
     top: 130px;
     left: 245px;
 }
-.capitaoamerica>li:hover ~ .box,
-.capitaoamerica>li:hover ~ .box-capitaoamerica{
-    display: inline;
-    position: absolute;
-    top: 40px;
-    left: 100px;
-    z-index: 2;
-}
-
 .homem-de-ferro {
     top: 130px;
     left: 395px;
 }
-.homem-de-ferro>li:hover ~ .box,
- .homem-de-ferro>li:hover ~ .box-homem-de-ferro{
-    display: inline;
-    position: absolute;
-    top: 40px;
-    left: 100px;
-    z-index: 2;
-}
-
 .hulk {
     top: 130px;
     left: 545px;
-}
-.hulk>li:hover ~ .box,
-.hulk>li:hover ~ .box-hulk{
-    display: inline;
-    position: absolute;
-    top: 40px;
-    left: 100px;
-    z-index: 2;
 }
 .thor {
     top: 130px;
     left: 695px;
 }
-.thor>li:hover ~ .box,
-.thor>li:hover ~ .box-thor{
-    display: inline;
-    position: absolute;
-    top: 40px;
-    left: 100px;
-    z-index: 2;    
-}
-
 .x-man {
     top: 130px;
     left: 845px;
-}
-.x-man>li:hover ~ .box,
-.x-man>li:hover ~ .box-xman{
-    display: inline;
-    position: absolute;
-    top: 0px;
-    left: 100px;
-    z-index: 2;
 }
 .homem-aranha {
     top: 510px;
     left: 95px;
 }
-.homem-aranha>li:hover ~ .box,
-.homem-aranha>li:hover ~ .box-homemaranha{
-    display: inline;
-    position: absolute;
-    top: 40px;
-    left: 100px;
-    z-index: 2;
-}
 .dr-estranho {
     top: 510px;
     left: 245px;
-}
-.dr-estranho>li:hover ~ .box,
-.dr-estranho>li:hover ~ .box-drestranho{
-    display: inline;
-    position: absolute;
-    top: 40px;
-    left: 100px;
-    z-index: 2;
 }
 .viuva-negra {
     top: 510px;
     left: 395px;
 }
+.vingadores>li:hover ~ .box,
+.vingadores>li:hover ~ .box-vingadores,
+.capitaoamerica>li:hover ~ .box,
+.capitaoamerica>li:hover ~ .box-capitaoamerica,
+.homem-de-ferro>li:hover ~ .box,
+.homem-de-ferro>li:hover ~ .box-homem-de-ferro,
+.hulk>li:hover ~ .box,
+.hulk>li:hover ~ .box-hulk,
+.thor>li:hover ~ .box,
+.thor>li:hover ~ .box-thor,
+.x-man>li:hover ~ .box,
+.x-man>li:hover ~ .box-xman,
+.homem-aranha>li:hover ~ .box,
+.homem-aranha>li:hover ~ .box-homemaranha,
+.dr-estranho>li:hover ~ .box,
+.dr-estranho>li:hover ~ .box-drestranho,
 .viuva-negra>li:hover ~ .box,
-.viuva-negra>li:hover ~ .box-viuvanegra{
+.viuva-negra>li:hover ~ .box-viuvanegra {
     display: inline;
     position: absolute;
     top: 40px;
