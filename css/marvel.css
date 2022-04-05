@@ -1,185 +1,125 @@
- #vingadores {
+ .posicao{
     position:absolute;
-    top: 130px;
-    left: 95px;
     background-size: cover;
     z-index: 1;
     text-align: center;
-}
-#vingadores>li:hover ~ .box,#vingadores>li:hover ~ .box-vingadores {
-    display: inline;
-    position: absolute;
-    top: 40px;
-    left: 100px;
-    z-index: 2;
-}
-.elementos #vingadores:hover {
+
+ }
+ .animacao:hover {
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
     z-index: 2;
     transition: 1.0s;
+ }
+ .vingadores {
+    top: 130px;
+    left: 95px;
 }
-#capitaoamerica {
+.vingadores>li:hover ~ .box,
+.vingadores>li:hover ~ .box-vingadores {
+    display: inline;
     position: absolute;
+    top: 40px;
+    left: 100px;
+    z-index: 2;
+}
+.capitaoamerica {
     top: 130px;
     left: 245px;
-    background-size: cover;
-    z-index: 1;
-    text-align: center;
 }
-#capitaoamerica>li:hover ~ #text2-box1{
+.capitaoamerica>li:hover ~ .box,
+.capitaoamerica>li:hover ~ .box-capitaoamerica{
     display: inline;
     position: absolute;
     top: 40px;
     left: 100px;
     z-index: 2;
 }
-.elementos #capitaoamerica:hover {
-    -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
-        z-index: 2;
-}
-#homem-de-ferro {
-    position: absolute;
+
+.homem-de-ferro {
     top: 130px;
     left: 395px;
-    background-size: cover;
-    z-index: 1;
-    text-align: center;
 }
-#homem-de-ferro>li:hover ~ #text3-box1{
+.homem-de-ferro>li:hover ~ .box,
+ .homem-de-ferro>li:hover ~ .box-homem-de-ferro{
     display: inline;
     position: absolute;
     top: 40px;
     left: 100px;
     z-index: 2;
 }
-.elementos #homem-de-ferro:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-    z-index: 2;
-}
-#hulk {
-    position: absolute;
+
+.hulk {
     top: 130px;
     left: 545px;
-    background-size: cover;
-    z-index: 1;
-    text-align: center;
 }
-#hulk>li:hover ~ #text4-box1{
+.hulk>li:hover ~ .box,
+.hulk>li:hover ~ .box-hulk{
     display: inline;
     position: absolute;
     top: 40px;
     left: 100px;
     z-index: 2;
 }
-.elementos #hulk:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-
-}
-#thor {
-    position: absolute;
+.thor {
     top: 130px;
     left: 695px;
-    background-size: cover;
-    z-index: 1;
-    text-align: center;
 }
-#thor>li:hover ~ #text5-box1{
+.thor>li:hover ~ .box,
+.thor>li:hover ~ .box-thor{
     display: inline;
     position: absolute;
     top: 40px;
     left: 100px;
     z-index: 2;    
 }
-.elementos #thor:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-}
-#x-man {
-    position: absolute;
+
+.x-man {
     top: 130px;
     left: 845px;
-    background-size: cover;
-    z-index: 1;
-    text-align: center;
 }
-#x-man>li:hover ~ #text6-box1{
+.x-man>li:hover ~ .box,
+.x-man>li:hover ~ .box-xman{
     display: inline;
     position: absolute;
     top: 0px;
     left: 100px;
     z-index: 2;
 }
-.elementos #x-man:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-}
-#homem-aranha {
-    position: absolute;
+.homem-aranha {
     top: 510px;
     left: 95px;
-    background-size: cover;
-    z-index: 1;
-    text-align: center;
 }
-#homem-aranha>li:hover ~ #text7-box1{
+.homem-aranha>li:hover ~ .box,
+.homem-aranha>li:hover ~ .box-homemaranha{
     display: inline;
     position: absolute;
     top: 40px;
     left: 100px;
     z-index: 2;
 }
-.elementos #homem-aranha:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-}
-#dr-estranho {
-    position: absolute;
+.dr-estranho {
     top: 510px;
     left: 245px;
-    background-size: cover;
-    z-index: 1;
-    text-align: center;
 }
-#dr-estranho>li:hover ~ #text8-box1{
+.dr-estranho>li:hover ~ .box,
+.dr-estranho>li:hover ~ .box-drestranho{
     display: inline;
     position: absolute;
     top: 40px;
     left: 100px;
     z-index: 2;
 }
-.elementos #dr-estranho:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-}
-#viuva-negra {
-    position: absolute;
+.viuva-negra {
     top: 510px;
     left: 395px;
-    background-size: cover;
-    z-index: 1;
-    text-align: center;
 }
-#viuva-negra>li:hover ~ #text9-box1{
+.viuva-negra>li:hover ~ .box,
+.viuva-negra>li:hover ~ .box-viuvanegra{
     display: inline;
     position: absolute;
     top: 40px;
     left: 100px;
     z-index: 2;
-}
-.elementos #viuva-negra:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
 }

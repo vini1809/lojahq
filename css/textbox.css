@@ -23,7 +23,7 @@ span{
     margin: auto 5px auto 5px;
     text-align: center;
 }
-.box-vingadores{
+.box-style{
     box-shadow: 3px 3px 3px 1px #b700ff;
     background-color: rgba(176, 182, 218, 0.93);
     border-radius: 0.25em;
@@ -32,113 +32,29 @@ span{
     font-family: 'Bangers', cursive;
 }
 
-/*#text1-box1{
-    display: none;
-    padding: 4px;
-    box-shadow: 3px 3px 3px 1px #b700ff;
-    background-color: rgba(176, 182, 218, 0.93);
-    border-radius: 0.25em;
-    width: 480px;
-    height: 250px;
-    margin: auto 5px auto 5px;
-    font-family: 'Bangers', cursive;
-    text-align: center;
-}*/
-#text2-box1{
-    display: none;
+.box-style-capitaoamerica{
     padding: 10px;
-    box-shadow: 3px 3px 3px 1px #b700ff;
-    background-color: rgba(176, 182, 218, 0.93);
-    border-radius: 0.25em;
-    width: 480px;
-    height: 250px;
-    margin: auto 5px auto 5px;
-    font-family: 'Bangers', cursive;
-    text-align: center;
 }
-#text3-box1{
-    display: none;
-    padding: 4px;
-    box-shadow: 3px 3px 3px 1px #b700ff;
-    background-color: rgba(176, 182, 218, 0.93);
-    border-radius: 0.25em;
-    width: 480px;
+.box-style-homemdeferro{
     height: 270px;
-    margin: auto 5px auto 5px;
-    font-family: 'Bangers', cursive;
-    text-align: center;
 }
-#text4-box1{
-    display: none;
-    padding: 4px;
+.box-style-hulk{
     box-shadow: 3px 3px 3px 1px #00ff0d;
     background-color: rgba(109, 233, 97, 0.93);
-    border-radius: 0.25em;
-    width: 480px;
     height: 270px;
-    margin: auto 5px auto 5px;
-    font-family: 'Bangers', cursive;
-    text-align: center;
 }
-#text5-box1{
-    display: none;
-    padding: 4px;
-    box-shadow: 3px 3px 3px 1px #b700ff;
-    background-color: rgba(176, 182, 218, 0.93);
-    border-radius: 0.25em;
-    width: 480px;
+.box-style-thor{
     height: 280px;
-    margin: auto 5px auto 5px;
-    font-family: 'Bangers', cursive;
-    text-align: center;
 }
-#text6-box1{
-    display: none;
-    padding: 4px;
-    box-shadow: 3px 3px 3px 1px #b700ff;
-    background-color: rgba(176, 182, 218, 0.93);
-    border-radius: 0.25em;
+.box-style-xman{
     width: 400px;
     height: 480px;
-    margin: auto 5px auto 5px;
-    font-family: 'Bangers', cursive;
-    text-align: center;
 }
-#text7-box1{
-    display: none;
-    padding: 4px;
-    box-shadow: 3px 3px 3px 1px #b700ff;
-    background-color: rgba(176, 182, 218, 0.93);
-    border-radius: 0.25em;
-    width: 480px;
+.box-style-homemaranha{
     height: 270px;
-    margin: auto 5px auto 5px;
-    font-family: 'Bangers', cursive;
-    text-align: center;
 }
-#text8-box1{
-    display: none;
-    padding: 4px;
-    box-shadow: 3px 3px 3px 1px #b700ff;
-    background-color: rgba(176, 182, 218, 0.93);
-    border-radius: 0.25em;
-    width: 480px;
+.box-style-drestranho{
     height: 450px;
-    margin: auto 5px auto 5px;
-    font-family: 'Bangers', cursive;
-    text-align: center;
-}
-#text9-box1{
-    display: none;
-    padding: 4px;
-    box-shadow: 3px 3px 3px 1px #b700ff;
-    background-color: rgba(176, 182, 218, 0.93);
-    border-radius: 0.25em;
-    width: 480px;
-    height: 250px;
-    margin: auto 5px auto 5px;
-    font-family: 'Bangers', cursive;
-    text-align: center;
 }
 #text10-box1{
     display: none;
