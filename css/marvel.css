@@ -6,7 +6,7 @@
     z-index: 1;
     text-align: center;
 }
-#vingadores>li:hover ~ #text1-box1{
+#vingadores>li:hover ~ .box,#vingadores>li:hover ~ .box-vingadores {
     display: inline;
     position: absolute;
     top: 40px;
@@ -18,6 +18,7 @@
     -ms-transform: scale(1.3);
     transform: scale(1.3);
     z-index: 2;
+    transition: 1.0s;
 }
 #capitaoamerica {
     position: absolute;
