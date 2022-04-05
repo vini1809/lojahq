@@ -46,13 +46,17 @@ nav {
     height: 50px;
     text-align: center;
     margin: 0;
+    border: 2pt;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: black;
     background-size: cover;
 }
 a:link, a:visited, a:active {
 	text-decoration:none;
     color: brown;
     vertical-align: middle;
-    line-height: 1.6em;
+    line-height: 1.70em;
 	}
 a:hover {
 	text-decoration: underline;
@@ -139,25 +143,29 @@ flex-grow: 0;
 margin: 0px 0px;
 background-size: cover;
 }
-#img-fundo {
-    position:relative;
-    top: 0px;
-    left: 0px;
-    width: 80vw;
-    height: 180vh;
+#img-celular {
+    position:float;
+    float: right;
+    width: auto;
+    height: auto;
     background-size: cover;
+    z-index: 1;
 }
 #img-pix {
     position: relative;
-    top: 30px;
-    left: 670px;
+    width: 20%;
+    height: 60%;
+    top: 58px;
+    left: 550px;
     padding: 0;
     background-size: cover;
 }
 #img-frete{
 position: relative;
-top: 30px;
-left: 170px;
+width: 20%;
+height: 60%;
+top: 60px;
+left: 290px;
 padding: 0;
     background-size: cover;
 }
@@ -190,6 +198,28 @@ align-self: stretch;
 flex-grow: 0;
 margin: 0px 0px;
 background-size: cover;
+line-height: 00.65em;
+}
+h4 {
+  font-size: 16px;
+  color: white;
+  margin-top: 2px;
+
+}
+#submit_button{
+  font-size: 18px;
+  font-family: 'Bangers', cursive;
+  background-color: rgb(251, 251, 251);
+  color: rgb(5, 5, 5);
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  margin: 0;
+  border: 2pt;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: black;
+  background-size: cover;
 }
 .rodape {
     background-color: black;

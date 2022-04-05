@@ -7,6 +7,16 @@ span{
     text-align: left;
     letter-spacing: -0.5px;
 }
+#text-cel{
+    position: absolute;
+    top: 590px;
+    right: 40px;
+    font-size: 35px;
+    font-family: 'Bangers', cursive;
+    text-align: right;
+    color: white;
+    line-height: 2em;
+}
 
 #text1-box1{
     display: none;
@@ -165,7 +175,7 @@ span{
     background-color: rgba(176, 182, 218, 0.93);
     border-radius: 0.25em;
     width: 480px;
-    height: 270px;
+    height: 400px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
     text-align: center;
@@ -178,8 +188,8 @@ span{
     box-shadow: 3px 3px 3px 1px #b700ff;
     background-color: rgba(176, 182, 218, 0.93);
     border-radius: 0.25em;
-    width: 480px;
-    height: 270px;
+    width: 450px;
+    height: 250px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
     text-align: center;
@@ -192,8 +202,8 @@ span{
     box-shadow: 3px 3px 3px 1px #b700ff;
     background-color: rgba(176, 182, 218, 0.93);
     border-radius: 0.25em;
-    width: 480px;
-    height: 270px;
+    width: 450px;
+    height: 280px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
     text-align: center;
@@ -207,7 +217,7 @@ span{
     background-color: rgba(176, 182, 218, 0.93);
     border-radius: 0.25em;
     width: 480px;
-    height: 270px;
+    height: 360px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
     text-align: center;
@@ -221,7 +231,7 @@ span{
     background-color: rgba(176, 182, 218, 0.93);
     border-radius: 0.25em;
     width: 480px;
-    height: 270px;
+    height: 280px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
     text-align: center;
@@ -234,8 +244,8 @@ span{
     box-shadow: 3px 3px 3px 1px #b700ff;
     background-color: rgba(176, 182, 218, 0.93);
     border-radius: 0.25em;
-    width: 480px;
-    height: 270px;
+    width: 400px;
+    height: 320px;
     margin: auto 5px auto 5px;
     font-family: 'Bangers', cursive;
     text-align: center;
