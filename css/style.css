@@ -52,11 +52,29 @@ span{
   z-index: 2;
   transition: 1.0s;
 }
-nav {
+.promocao {
     position:static;
     width: auto;
     height: 260px;
     background-size: cover;
+}
+.promocao>#img-pix {
+  position: relative;
+  width: 20%;
+  height: 60%;
+  top: 58px;
+  left: 550px;
+  padding: 0;
+  background-size: cover;
+}
+.promocao>#img-frete{
+position: relative;
+width: 20%;
+height: 60%;
+top: 60px;
+left: 290px;
+padding: 0;
+  background-size: cover;
 }
 .produtos {
     position: relative;
@@ -182,24 +200,6 @@ background-size: cover;
     height: auto;
     background-size: cover;
     z-index: 1;
-}
-#img-pix {
-    position: relative;
-    width: 20%;
-    height: 60%;
-    top: 58px;
-    left: 550px;
-    padding: 0;
-    background-size: cover;
-}
-#img-frete{
-position: relative;
-width: 20%;
-height: 60%;
-top: 60px;
-left: 290px;
-padding: 0;
-    background-size: cover;
 }
 
 #preco{
