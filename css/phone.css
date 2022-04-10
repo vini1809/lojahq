@@ -1,309 +1,287 @@
 @media screen and (max-width: 520px) {
-    .cabecalho {
-        position: flex;
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
-        background-color: black;
-    }
-    .cabecalho img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 150px;
-        background-size: cover;
-    }
-    #logo {
-        position:absolute;
-        top: 85px;
-        left: 116px;
-        width: 150px;
-        height: 114px;
-        background-size: cover;
-    
-    }
-    
-    .fundo {
-        position: flex;
-        float: center;
-        margin: 150px 0 0 0;
-        padding: 0 0 0 0;
-        background-color: white;
-    }
-    #img-fundo {
-        width: 100vw;
-        height: 80vh;
-        background-size: cover;
-    }
-    #img-pix {
-        position: absolute;
-        top: 550px;
-        left: 140px;
-        width: 100px;
-        height: 80px;
-    }
-    #text-box1{
-        display: none;
-        padding: 4px;
-        box-shadow: 3px 3px 3px 1px #b700ff;
-        background-color: rgba(176, 182, 218, 0.45);
-        border-radius: 0.25em;
-        width: 250px;
-        height: 80px;
-        margin: auto 5px auto 5px;
-        font-family: 'Bangers', cursive;
-        font-size: 34px;
-        text-align: center;
-    }
-    .marvel {
-        position: absolute;
-        top: 140px;
-        left: 50px;
-        background-size: cover;
-    }
-    .marvel img{
-        max-width: 100%;
-        max-height: 100%;
+body {
+    position: relative;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    align-self: stretch;
+}
+.cabecalho-style {
+    width: auto;
+    height: auto;
+    background: linear-gradient( #4b4b4b, white );
+}
+.logo {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 0px;
+    background-size: cover;
+}
+.search-container {
+    position: relative;
+    top: 1;
+    left: -24px;
+    width: 180px;
+    height: auto;
+    background-size: cover;
+}
+.login {
+    position: relative;
+    top: 119px;
+    left: 0px;
+    text-align: center;
+    margin: 5px;
+    background-size: cover;
+}
+.login-style {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(251, 251, 251);
+    color: white;
+    width: 276px;
+    height: 65px;
+    border: 5pt;
+    border-style: solid;
+    border-radius: 23px;
+    border-color: black;
+}
+.dcmarvel {
+    display: flex;
+    top: 258px;
+    left: 32px;
+    height: 58px;
+    background-size: cover;
+}
 
-    }
-    .marvel li {
-        width: 50px;
-        height: 50px;
-    }
-    
-    .marvel li:nth-child(1):hover ~ #text-box1{
-        display: inline;
-        position: absolute;
-        top: 0px;
-        left: 90px;
-    }
-    .marvel li:nth-child(1):hover{
-        -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
-    }
-    .marvel li:nth-child(2):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
-    }
-    .marvel li:nth-child(3):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
-    }
-    .marvel li:nth-child(4):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
-    }
-    .marvel li:nth-child(5):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
-    }
-    .marvel li:nth-child(6):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
-    }
-    .marvel li:nth-child(7):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
-    }
-    .marvel li:nth-child(8):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
-    }.marvel li:nth-child(9):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
-    }
-    .marvel li:nth-child(10):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
-    }
-    
-    
-    
-    .DC {
-        position: absolute;
-        top: 140px;
-        right: 50px;
-        background-size: cover;
-    }
-    .DC img{
-        max-width: 100%;
-        max-height: 100%;
+.promocao {
+    display: flex;
+    top: 34%;
+    left: -25px;
+    width: 261px;
+    height: 142px;
+    margin-top: 63px;
+    background-size: cover;
+}
+.img-frete {
+    padding-top: 2%;
+    margin: 0 40px;
+    padding: 10px;
+}
+  .img-pix {
+    padding-top: 2%;
+    margin: 0 95px;
+  }
+  
+  .posicao{
+    position:relative;
+    background-size: cover;
+    z-index: 1;
+    text-align: center;
+  }
+  .animacao:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    z-index: 2;
+    transition: 1.0s;
+  }
+  #preco{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 221, 1);
+    text-align: center;
+    margin: 7px;
+    line-height: 3.5em;
+    background-color: black;
+    background-size: cover;
+  }
+  .produtos {
+    position: relative;
+    top: 260px;
+    left: 0;
+    width: auto;
+    height: 840px;
+    background:linear-gradient( white,#4b4b4b,rgb(250, 249, 249));
+    padding-top: 50px;
+}
+.img-celular {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 20px;
+}
+.text-cel {
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 83px;
+    margin-bottom: 50px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    line-height: 3em;
+}
+.posicao {
+    display: contents;
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+    text-align: center;
 
+}
+.liga-da-justica {
+    top: 510px;
+    left: 545px;
+    z-index: 0;
+}
+.super-homem {
+    top: 510px;
+    left: 695px;
+    z-index: 0;
+}
+.batman {
+    top: 510px;
+    left: 845px;
+    z-index: 0;
+}
+.mulher-maravilha {
+    top: 890px;
+    left: 95px;
+    z-index: 0;
+}
+.aquaman {
+    top: 890px;
+    left: 245px;
+    z-index: 0;
+}
+.flash {
+    top: 890px;
+    left: 395px;
+    z-index: 0;
+}
+.lanterna-verde {
+    top: 890px;
+    left: 545px;
+    z-index: 0;
+}
+.ravena {
+    top: 890px;
+    left: 695px;
+    z-index: 0;
+}
+.coringa {
+    top: 890px;
+    left: 845px;
+    z-index: 0;
+}
+.vingadores {
+    top: 130px;
+    left: 95px;
+}
+.capitaoamerica {
+    top: 130px;
+    left: 245px;
+}
+.homem-de-ferro {
+    top: 130px;
+    left: 395px;
+}
+.hulk {
+    top: 130px;
+    left: 545px;
+}
+.thor {
+    top: 130px;
+    left: 695px;
+}
+.x-man {
+    top: 130px;
+    left: 845px;
+}
+.homem-aranha {
+    top: 510px;
+    left: 95px;
+}
+.dr-estranho {
+    top: 510px;
+    left: 245px;
+}
+.viuva-negra {
+    top: 510px;
+    left: 395px;
+}
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 6900px;
+    height: 100px;
+}
+.contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: auto;
+    height: 580px;
+    left: 0px;
+    top: 0px;
+    background:  black;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+    background-size: cover;
+    line-height: 00.65em;
     }
-    .DC li {
-        width: 50px;
-        height: 50px;
-    }
-    
-    .DC li:nth-child(1):hover ~ #text-box1{
-        display: inline;
-        position: absolute;
-        top: 0px;
-        right: 90px;
-    }
-    .DC li:nth-child(1){
-        position: absolute;
-        top: 0;
-        right: 0px;
-        background-size: cover;
-    
-    }
-    .DC li:nth-child(3){
-        position: absolute;
-        top: 41px;
-        right: 0px;
-        background-size: cover;
-    
-    }
-    
-    .DC li:nth-child(4){
-        position: absolute;
-        top: 95px;
-        right: 0px;
-        background-size: cover;
-    
-    }
-    .DC li:nth-child(5){
-        position: absolute;
-        top: 145px;
-        right: 0px;
-        background-size: cover;
-    
-    }
-    .DC li:nth-child(6){
-        position: absolute;
-        top: 195px;
-        right: 0px;
-        background-size: cover;
-    
-    }
-    .DC li:nth-child(7){
-        position: absolute;
-        top: 245px;
-        right: 0px;
-        background-size: cover;
-    
-    }
-    .DC li:nth-child(8){
-        position: absolute;
-        top: 292px;
-        right: 0px;
-        background-size: cover;
-    
-    }
-    .DC li:nth-child(9){
-        position: absolute;
-        top: 345px;
-        right: 0px;
-        background-size: cover;
-    
-    }
-    .DC li:nth-child(10){
-        position: absolute;
-        top: 395px;
-        right: 0px;
-        background-size: cover;
-    
-    }
-    .DC li:nth-child(11){
-        position: absolute;
-        top: 442px;
-        right: 0px;
-        background-size: cover;
-    
-    }
-    .DC li:nth-child(1):hover{
-        -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
-    }
-    .DC li:nth-child(2):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
-    }
-    .DC li:nth-child(3):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
-    }
-    .DC li:nth-child(4):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
-    }
-    .DC li:nth-child(5):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
-    }
-    .DC li:nth-child(6):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
+    h4 {
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      margin-top: 2px;
     
     }
-    .DC li:nth-child(7):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
-    }
-    .DC li:nth-child(8):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
-    }.DC li:nth-child(9):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
-    }
-    .DC li:nth-child(10):hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    
+    #submit_button{
+      font-size: 18px;
+      font-family: 'Bangers', cursive;
+      background-color: rgb(251, 251, 251);
+      color: rgb(5, 5, 5);
+      width: 60px;
+      height: 30px;
+      text-align: center;
+      margin: 0;
+      border: 2pt;
+      border-style: solid;
+      border-radius: 2px;
+      border-color: black;
+      background-size: cover;
     }
     .rodape {
         background-color: black;
         width: auto;
-        height: 100px;
+        height: 7100px;
         text-align: center;
         vertical-align:baseline;
+        background-size: cover;
     }
     .rodape a {
-        margin: 3px;
-        padding: 3px;
+        margin: 20px 20px 20px 20px;
+        padding: 20px 20px 20px 20px;
     }
     .rodape p {
         color: white;
-        text-align: left;
-        vertical-align: middle;
     }
+    
 
 }
