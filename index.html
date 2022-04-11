@@ -370,25 +370,25 @@
 
     <footer class="footer">
         <div class="contato">
-            <div id="after_submit"></div>
-                <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-                <div class="row">
-                    <label class="required" for="name"><h4>Escreva seu nome:</h4></label><br />
-                    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-                    <span id="name_validation" class="error_message"></span>
+            <div class="antes-de-escrever"></div>
+                <form class="formulario-de-contato" action="#" method="POST" enctype="multipart/form-data">
+                <div class="linha">
+                    <label class="requirido" for="name"><h4 class="text-footer">Escreva seu nome:</h4></label><br />
+                    <input class="name" class="input-form" name="name" type="text" value="" size="30" /><br />
+                    <span class="name_validation" class="error_message"></span>
                 </div>
-                <div class="row">
-                    <label class="required" for="email"><h4>Digite seu email:</h4></label><br />
-                    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-                    <span id="email_validation" class="error_message"></span>
+                <div class="linha">
+                    <label class="requirido" for="email"><h4 class="text-footer">Digite seu email:</h4></label><br />
+                    <input class="email" class="input-form" name="email" type="text" value="" size="30" /><br />
+                    <span class="email_validation" class="error_message"></span>
                 </div>
-                <div class="row">
-                    <label class="required" for="message"><h4>Escreva sua mensagem:</h4></label><br />
-                    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-                    <span id="message_validation" class="error_message"></span>
+                <div class="linha">
+                    <label class="requirido" for="message"><h4 class="text-footer">Escreva sua mensagem:</h4></label><br />
+                    <textarea class="message" class="input-form" name="message" rows="7" cols="30"></textarea><br />
+                    <span class="message_validation" class="error_message"></span>
                 </div>
-                    
-                    <input id="submit_button" type="submit" value="Enviar" />
+                    <br><br>
+                    <input class="enviar-btn" type="submit" value="Enviar" />
                 </form>
 
         </div>

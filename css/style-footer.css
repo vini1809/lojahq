@@ -9,7 +9,7 @@
     padding: 0px;
     position: static;
     width: auto;
-    height: 310px;
+    height: 580px;
     left: 0px;
     top: 0px;
     background:  black;
@@ -19,9 +19,30 @@
     flex-grow: 0;
     margin: 0px 0px;
     background-size: cover;
-    line-height: 00.65em;
+    line-height: 00.95em;
     font-family: 'Bangers', cursive;
     }
+    .contato-login {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      position: static;
+      width: auto;
+      height: 310px;
+      left: 0px;
+      top: 0px;
+      background:  black;
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 0px 0px;
+      background-size: cover;
+      line-height: 00.65em;
+      font-family: 'Bangers', cursive;
+      }
     .text-footer {
       font-size: 18px;
       color: white;
