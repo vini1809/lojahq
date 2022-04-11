@@ -5,12 +5,18 @@
     font-family: sans-serif;
     list-style: none
   }
-body{
-  background-image: url("../img/marvel/wallpaper-os-vingadores-02.jpg");
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
+  body{
+    background-image: url("../img/marvel/wallpaper-os-vingadores-02.jpg");
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  .backgrond {
+  background-image: url("../img/marvel/captainAmerica.jpg");
+}
+.backgrond-homemdeferro{
+  background-image: url("../img/marvel/iron-man-wallpaper-thumb.jpg");
 }
 img {
     top: 0;
