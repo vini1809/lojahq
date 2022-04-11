@@ -1,0 +1,80 @@
+
+.body {
+ width: max-content;
+}
+em {
+  font-size: 30px;
+}
+span{
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  letter-spacing: -0.5px;
+}
+
+.text-cel {
+  position: absolute;
+  top: 732px;
+  right: 79px;
+  font-size: 35px;
+  font-family: 'Bangers', cursive;
+  text-align: right;
+  color: white;
+  line-height: 2em;
+}
+.posicao{
+  position:absolute;
+  background-size: cover;
+  z-index: 1;
+  text-align: center;
+}
+.animacao:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  z-index: 2;
+  transition: 1.0s;
+}
+.produtos {
+    position: relative;
+    top: 110px;
+    left: 0;
+    width: auto;
+    height: 1290px;
+    background:linear-gradient( white,#4b4b4b,black);
+}
+.img-celular {
+  display: flex;
+  position: relative;
+  top: 10%;
+  left: 75%;
+}
+#preco{
+  font-size: 9;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(255, 221, 1);
+  text-align: center;
+  margin: 5px;
+  line-height: 1.50em;
+  background-color: black; 
+}
+
+.fundo {
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0;
+position: static;
+width: auto;
+height: auto;
+left: 0px;
+top: 0px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+background-size: cover;
+}

@@ -1,0 +1,18 @@
+.body {
+    width: max-content;
+   }
+.rodape {
+    background-color: black;
+    width: auto;
+    height: 100px;
+    text-align: center;
+    vertical-align:baseline;
+    background-size: cover;
+}
+.rodape a {
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+.rodape p {
+    color: white;
+}
