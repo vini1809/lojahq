@@ -48,18 +48,25 @@
       padding-top: 2%;
       margin: 0 230px;
     }
-    .login-style {
-      font-size: 35px;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: rgb(251, 251, 251);
+    .modal-header {
+      background-color:black;
       color: white;
+
+    }
+    #botao, .btn-primary {
+      font-size: 35px;
+      background-color: rgb(251, 251, 251);
+      font-family: 'Bangers';
+      text-decoration: none;
+      color: brown;
+      line-height: 1.50em;
       width: 273px;
       border: 4pt;
       border-style: solid;
       border-radius: 16px;
       border-color: black;
     }
-    .login {
+    #botao, .btn-primary {
       position: absolute;
       top: 67px;
       right: 75px;
@@ -67,13 +74,13 @@
       margin: 0;
       background-size: cover;
     }
-    a:link, a:visited, a:active {
+    #botao:link,  #botao:visited,  #botao:active {
       font-family: 'Bangers';
       text-decoration: none;
       color: brown;
       line-height: 1.50em;
     }
-    a:hover {
+    #botao:hover {
     text-decoration: underline;
     color:#000;
     }
@@ -141,3 +148,8 @@
       color: white;
       line-height: 2em;
     }
+#botao {
+  position: absolute;
+  z-index: 10;
+  top: 10%;
+}

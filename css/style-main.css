@@ -9,7 +9,9 @@ span{
   font-size: 14px;
   font-family: 'Times New Roman', Times, serif;
   text-align: left;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.8px;
+  line-height: 0px;
+
 }
 
 .text-cel {
@@ -58,6 +60,9 @@ span{
   margin: 5px;
   line-height: 1.50em;
   background-color: black; 
+}
+.elementos {
+  cursor: pointer;
 }
 
 .fundo {
